@@ -6,20 +6,20 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const projects = [
     {
-        title: "Salar de Atacama",
-        src: "salar_de_atacama.jpg"
+        title: "International Student",
+        src: "img1.PNG"
     },
     {
-        title: "Valle de la luna",
-        src: "valle_de_la_muerte.jpeg"
+        title: "Passion",
+        src: "img5.jpg"
     },
     {
-        title: "Miscanti Lake",
-        src: "miscani_lake.jpeg"
+        title: "Teamwork",
+        src: "img4.JPEG"
     },
     {
-        title: "Miniques Lagoons",
-        src: "miniques_lagoon.jpg"
+        title: "Love of the Game",
+        src: "img6.JPG"
     },
 ]
 
@@ -51,10 +51,11 @@ export default function Index() {
                     />
                 </div>
                 <div className={styles.column}>
-                    <p>The flora is characterized by the presence of high elevation wetland, as well as yellow straw, broom sedge, tola de agua and tola amaia.</p>
+                    <p>AS AN INTERNATIONAL STUDENT, I WAS ABLE TO EXPERIENCE A NEW CULTURE AND WAY OF LIFE.</p>
                 </div>
                 <div className={styles.column}>
-                    <p>Some, like the southern viscacha, vicuña and Darwins rhea, are classified as endangered species. Others, such as Andean goose, horned coot, Andean gull, puna tinamou and the three flamingo species inhabiting in Chile (Andean flamingo, Chilean flamingo, and Jamess flamingo) are considered vulnerable.</p>
+                    <p>I was able to make new friends and experience new things. It was truly a great experience and I would recommend it to anyone who is interested in discovering new things.</p>
+                
                 </div>
             </div>
 

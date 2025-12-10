@@ -31,7 +31,7 @@ export default function Index() {
         <div className={styles.homeHeader}>
             <div className={styles.backgroundImage} ref={background}>
                 <Image 
-                    src={'/images/background.jpeg'}
+                    src={'/images/background.JPEG'}
                     fill={true}
                     alt="background image"
                     priority={true}
@@ -40,13 +40,13 @@ export default function Index() {
             <div className={styles.intro}>
                     <div ref={introImage} data-scroll data-scroll-speed="0.3" className={styles.introImage}>
                         <Image
-                            src={'/images/intro.png'}
+                            src={'/images/img7.PNG'}
                             alt="intro image"
                             fill={true} 
                             priority={true}
                         />
                     </div>
-                    <h1 data-scroll data-scroll-speed="0.7">SMOOTH SCROLL</h1>
+                    <h1 data-scroll data-scroll-speed="0.7">MY COLLEGE CAREER</h1>
              </div>
         </div>
     )
