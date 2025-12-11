@@ -62,7 +62,13 @@ export default function Index() {
             <div className={styles.projectList}>
                 {
                     projects.map( (project, index) => {
-                        return <div key={index} onMouseOver={() => {setSelectedProject(index)}} className={styles.projectEl}>
+                        return <div 
+                            key={index} 
+                            onMouseOver={() => {setSelectedProject(index)}} 
+                            onTouchStart={() => {setSelectedProject(index)}}
+                            onClick={() => {setSelectedProject(index)}}
+                            className={styles.projectEl}
+                        >
                             <h2>{project.title}</h2>
                         </div>
                     })
